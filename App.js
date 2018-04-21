@@ -1,7 +1,7 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * CropImage - App主页面
+ * https://menger.me
+ * @大梦
  */
 
 import React, {Component} from 'react';

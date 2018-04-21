@@ -1,5 +1,12 @@
+/**
+ * CropImage - 主入口
+ * https://menger.me
+ * @大梦
+ */
+
 import { AppRegistry } from 'react-native';
-import App from './App';
+import App from './src'
+// import App from './App'
 
 if ( !__DEV__ ) {
     global.console = {
@@ -12,6 +19,6 @@ if ( !__DEV__ ) {
     };
 };
 
-console.ignoredYellowBox = ['Remote debugger is in'];
+console.ignoredYellowBox = ['Remote debugger is in', 'Warning: isMounted(...) is deprecated', 'Module RCTImageLoader'];
 
 AppRegistry.registerComponent('CropImage', () => App);
